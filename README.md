@@ -29,4 +29,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 You can find a demo of the app here (Demo is not plugged with any Amazon S3 account) 
 
-https://robinfermaud-com.herokuapp.com/#/
+https://amazon-s3-dropbox.herokuapp.com/#/
