@@ -1,0 +1,126 @@
+form {
+    display: block;
+    height: 19vw;
+    border: dashed #c2c2c2;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 4%;
+    cursor: pointer;
+    min-height: 12em;
+    overflow: scroll;
+}
+
+form:hover {
+    border: dashed #36aaf4;
+}
+
+div.file-listing {
+    width: 100%;
+    text-overflow: ellipsis;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.file-listing img {
+    height: 30px;
+}
+
+div.remove-container {
+    text-align: center;
+    overflow: hidden;
+}
+
+div.remove-container a {
+    color: red;
+    cursor: pointer;
+}
+
+a.submit-button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #cccccc;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+progress {
+    width: 400px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.dragdrop-container {
+    padding: 1em;
+}
+
+.my-file-container {
+    background-color: #c2c2c2;
+    color: white;
+    margin-left: -1em;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    line-height: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.upload-logo {
+    margin-top: 22%;
+}
+
+.filename {
+    display: inline;   
+}
+
+.delete-logo {
+    float: right;
+    cursor: pointer;
+    margin-top: -5px;
+    width: 15px !important;
+}
+
+.cross-preview {
+    margin-top: 4px;
+    height: 22px!important;
+}
+
+.drop-zone {
+    width: 59%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden auto;
+}
+
+.content-zone {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.open-file {
+    cursor: pointer;
+}
+
+.open-file:hover {
+    text-decoration: underline !important;
+}
