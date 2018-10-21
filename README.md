@@ -1,12 +1,19 @@
 # dropbox-amazon-s3
 
-> A Vue.js project
-
+> A Dropbox that uses Vue.Js and Amazon S3
+> You must first create an Amazon S3 account and a bucket. 
+> Retrieve the credentials from the amazon s3 console. 
 ## Build Setup
 
 ``` bash
+
 # install dependencies
 npm install
+
+# Edit config/dev.env.js and config/prod.env.js and fill it with your Amazon S3 credentials
+cd dropbox-amazon-s3/
+nano config/dev.env.js
+nano config/prod.env.js
 
 # serve with hot reload at localhost:8080
 npm run dev
