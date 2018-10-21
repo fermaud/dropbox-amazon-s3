@@ -5,11 +5,12 @@ import DropBox from '@/components/DropBox'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'dropbox',
-      component: DropBox
-    }
-  ]
+    mode: 'history',
+    routes: [
+        {
+          path: '/',
+          name: 'dropbox',
+          component: DropBox
+        }
+    ]
 })
