@@ -25,8 +25,6 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 You can find a demo of the app here (Demo is not plugged with any Amazon S3 account) 
 
 https://amazon-s3-dropbox.herokuapp.com/#/
